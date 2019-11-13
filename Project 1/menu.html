@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="externalproj1.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        .image {
+            float: left;
+            width: 200px;
+            margin: 0 10px 10px 0;
+        }
+
+        .dish-name {
+            margin: 2% 0 0 15px;
+            padding-left: 10px;
+            font-size: 27px;
+            color: #CF3632;
+            font-family: "DIN Alternate Bold", Arial, sans-serif;
+        }
+
+        .price {
+            margin: 2% 0 0 15px;
+            display: inline;
+            float: right;
+            font-size: 20px;
+        }
+
+        .ingredients {
+            margin-top: 10px;
+            padding-left: 10px;
+            font-size: 16px;
+            font-family: "Hiragino Sans CNS", Arial, sans-serif;
+            max-width: 920px;
+        }
+
+        .menubut {
+            background-color: #CF3632;
+            border: none;
+            color: white;
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            float: right;
+            margin-top: 10px;
+        }
+
+        .menu_item {
+            width: 1180px;
+            height: 200px;
+            position: relative;
+        }
+
+        .order_items {
+            width: 125px;
+            height: 100px;
+            float: right;
+        }
+
+        .size {
+            float: right;
+            text-align: right;
+            margin-left: 5px;
+        }
+
+        .amount {
+            float: right;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="blackbox">
+        <h5>Login/Sign up</h5>
+        <input class="cart" type="image" name="<cart>" src="New_Galactic/Galactic%20Cart.png" border="border of the image" alt="cart"/>
+    </div>
+
+    <div class="navi">
+        <nav>
+            <a href="home.html"><img class="logo" src="New_Galactic/LOGO.png" alt="Galactic Pizza logo"></a>
+
+            <a href="aboutus.html"><p id="about">About us</p></a>
+            <a href="menu.html"><p id="menu">Menu</p></a>
+            <a href="gift_cards.html"><p id="giftcards">Gift Cards</p></a>
+            <a href="contact.html"><p id="contact">Contact</p></a>
+        </nav>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Galactic.jpg" alt="The Galactic"/>
+        <p class="price">$14.90 | 19.30 | 22.85</p>
+        <h3 class="dish-name">The Galactic</h3>
+        <p class="ingredients">Homemade hemp pesto sauce, mozzarella cheese, organic button mushrooms, garlic,
+            organic roma tomatoes, and oregano.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Maui-Wowie.jpg" alt="Maui Wowie">
+        <p class="price">$15.55 | 20.20 | 23.85</p>
+        <h3 class="dish-name">Maui Wowie</h3>
+        <p class="ingredients">Sun-dried tomato pesto, mozzarella cheese, Canadian bacon, pineapple, and jalapeños.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Thailander.jpg" alt="The Thailander"/>
+        <p class="price">$15.55 | 20.20 | 23.85</p>
+        <h3 class="dish-name">The Thailander</h3>
+        <p class="ingredients">Spicy Thai peanut sauce (contains gluten), mozzarella cheese, marinated free roam
+            chicken, organic green onions, bean sprouts, shredded carrots, crushed peanuts, and fresh organic
+            cilantro.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Mexicali.jpg" alt="The Mexicali"/>
+        <p class="price">$15.55 | 20.20 | 23.85</p>
+        <h3 class="dish-name">The Mexicali</h3>
+        <p class="ingredients">Salsa Lisa cream sauce, mozzarella cheese, cheddar cheese, marinated free roam chicken,
+            organic green onion, organic roma tomatoes, jalapeños, and organic cilantro.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Shroomer.jpg" alt="The Shroomer"/>
+        <p class="price">$15.70 | 20.35 | 24.15</p>
+        <h3 class="dish-name">The Shroomer</h3>
+        <p class="ingredients">Tomato sauce, mozzarella cheese, organic portabella mushrooms, organic shiitake
+            mushrooms, and organic button mushrooms.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Pizza-Alla-Vodka.jpg" alt="Pizza Alla Vodka"/>
+        <p class="price">$15.70 | 20.35 | 24.15</p>
+        <h3 class="dish-name">Pizza Alla Vodka</h3>
+        <p class="ingredients">Creamy tomato vodka sauce, mozzarella cheese, organic button mushrooms, prosciutto, and
+            fresh organic basil.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Organic-Veggie.jpg" alt="Organic Veggie"/>
+        <p class="price">$15.55 | 20.20 | 23.85</p>
+        <h3 class="dish-name">Organic Veggie</h3>
+        <p class="ingredients">Tomato sauce, mozzarella cheese, organic button mushrooms, organic roma tomatoes, organic
+            green peppers, and organic red onions.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Old-School.jpg" alt="The Old School"/>
+        <p class="price">$14.90 | 19.30 | 22.85</p>
+        <h3 class="dish-name">The Old School</h3>
+        <p class="ingredients">Tomato sauce, mozzarella cheese, pepperoni, sausage, organic button mushrooms, organic
+            green peppers, and organic red onions.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Paul-Bunyan.jpg" alt="Paul Bunyan"/>
+        <p class="price">$14.90 | 19.30 | 22.85</p>
+        <h3 class="dish-name">Paul Bunyan</h3>
+        <p class="ingredients">This is a very special pizza. The first of its kind. All of the toppings have been
+            selected based on the fact that they are native to the Minnesota ecosystem, giving it a unique flavor that
+            is truly Minnesotan. It starts with our homemade tomato sauce, then is topped with mozzarella cheese, morel
+            mushrooms, wild rice, and free range bison sausage.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Ranch-Dude.jpg" alt="Ranch Dude"/>
+        <p class="price">$14.90 | 19.30 | 22.85</p>
+        <h3 class="dish-name">Ranch Dude</h3>
+        <p class="ingredients">Creamy ranch sauce, mozzarella cheese, organic roma tomatoes, all natural bacon, organic
+            button mushrooms, and organic red onions.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Hipster.jpg" alt="The Hipster"/>
+        <p class="price">$15.90 | 20.65 | 24.45</p>
+        <h3 class="dish-name">The Hipster</h3>
+        <p class="ingredients">Tomato sauce, mozzarella cheese, organic spinach, organic button mushrooms, organic red
+            onions, organic roma tomatoes, and topped with feta cheese.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Pizza-Bianca.jpg" alt="Pizza Bianca"/>
+        <p class="price">$15.90 | 20.65 | 24.45</p>
+        <h3 class="dish-name">Pizza Bianca</h3>
+        <p class="ingredients">Olive oil and garlic sauce, mozzarella cheese, sundried tomatoes, garlic, artichoke
+            hearts, and topped with organic goat cheese.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Alamo.jpg" alt="Alamo"/>
+        <p class="price">$14.90 | 19.30 | 22.85</p>
+        <h3 class="dish-name">The Alamo</h3>
+        <p class="ingredients">Tangy barbeque sauce (contains gluten), mozzarella cheese, cheddar cheese, marinated free
+            roam chicken, organic red onions, organic button mushrooms, and organic red bell peppers.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Alfredo.jpg" alt="Alfredo"/>
+        <p class="price">$15.55 | 20.20 | 23.85</p>
+        <h3 class="dish-name">Alfredo</h3>
+        <p class="ingredients">Creamy alfredo sauce, mozzarella cheese, organic roma tomatoes, organic broccoli, and
+            marinated free roam chicken.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_item">
+        <img class="image" src="Pizza_menu/Brooklyn-Bee.jpg" alt="Brooklyn Bee"/>
+        <p class="price">$15.55 | 20.20 | 23.85</p>
+        <h3 class="dish-name">The Brooklyn Bee</h3>
+        <p class="ingredients">San Marzano sauce, red pepper flakes, sopressata, organic roma tomatoes, organic red
+            onions, mozzarella cheese, Pecorino Romano cheese and topped with honey.</p>
+        <div class="order_items">
+            <div class="size">
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="amount">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                </select>
+            </div>
+            <div class="order">
+                <button class="menubut">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Social media-->
+    <div class="social">
+        <a href="https://www.instagram.com/galacticpizza/"><img src="Social/insta.png" width="40px"></a>
+        <a href="https://www.facebook.com/galacticpizza/"><img src="Social/facebook.png" width="40px"></a>
+        <a href="https://twitter.com/galacticpizza/"><img src="Social/twitter.png" width="40px"></a>
+        <a href="https://foursquare.com/v/galactic-pizza/441f91ebf964a52081311fe3/"><img src="Social/foursquare.png"
+                                                                                         width="40px"></a>
+    </div>
+</div><!--end of wrapper-->
+
+<script>
+    var x, i, j, selElmnt, a, b, c;
+    /* Look for any elements with the class "custom-select": */
+    x = document.getElementsByClassName("custom-select");
+    for (i = 0; i < x.length; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        /* For each element, create a new DIV that will act as the selected item: */
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /* For each element, create a new DIV that will contain the option list: */
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items select-hide");
+        for (j = 1; j < selElmnt.length; j++) {
+            /* For each option in the original select element,
+            create a new DIV that will act as an option item: */
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function (e) {
+                /* When an item is clicked, update the original select box,
+                and the selected item: */
+                var y, i, k, s, h;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < s.length; i++) {
+                    if (s.options[i].innerHTML == this.innerHTML) {
+                        s.selectedIndex = i;
+                        h.innerHTML = this.innerHTML;
+                        y = this.parentNode.getElementsByClassName("same-as-selected");
+                        for (k = 0; k < y.length; k++) {
+                            y[k].removeAttribute("class");
+                        }
+                        this.setAttribute("class", "same-as-selected");
+                        break;
+                    }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function (e) {
+            /* When the select box is clicked, close any other select boxes,
+            and open/close the current select box: */
+            e.stopPropagation();
+            closeAllSelect(this);
+            this.nextSibling.classList.toggle("select-hide");
+            this.classList.toggle("select-arrow-active");
+        });
+    }
+
+    function closeAllSelect(elmnt) {
+        /* A function that will close all select boxes in the document,
+        except the current select box: */
+        var x, y, i, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        for (i = 0; i < y.length; i++) {
+            if (elmnt == y[i]) {
+                arrNo.push(i)
+            } else {
+                y[i].classList.remove("select-arrow-active");
+            }
+        }
+        for (i = 0; i < x.length; i++) {
+            if (arrNo.indexOf(i)) {
+                x[i].classList.add("select-hide");
+            }
+        }
+    }
+
+    /* If the user clicks anywhere outside the select box,
+    then close all select boxes: */
+    document.addEventListener("click", closeAllSelect);
+</script>
+
+
+</body>
+</html>

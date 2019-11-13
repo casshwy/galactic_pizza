@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About us</title>
+    <link rel="stylesheet" type="text/css" href="externalproj1.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        .vision {
+            width: 900px;
+            position: relative;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .visioninfo {
+            font-family: Avenir;
+            color: black;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .title1 {
+            font-family: "Alfarn", Arial, sans-serif;
+            font-size: 50px;
+            color: #CF3632;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="blackbox">
+        <h5>Login/Sign up</h5>
+        <input class="cart" type="image" name="<cart>" src="New_Galactic/Galactic%20Cart.png" border="border of the image" alt="cart"/>
+    </div>
+
+    <div class="navi">
+        <nav>
+            <a href="home.html"><img class="logo" src="New_Galactic/LOGO.png" alt="Galactic Pizza logo"></a>
+
+            <a href="aboutus.html"><p id="about">About us</p></a>
+            <a href="menu.html"><p id="menu">Menu</p></a>
+            <a href="gift_cards.html"><p id="giftcards">Gift Cards</p></a>
+            <a href="contact.html"><p id="contact">Contact</p></a>
+        </nav>
+    </div>
+
+    <div class="vision">
+        <h1 class="title1">- Planet Saving Pizza -</h1>
+        <img src="Home_img/vision.jpg" alt="Two Galactic Employees" style="margin-bottom: 10px"/>
+        <p class="visioninfo">At Galactic Pizza we have a positive vision of the future on our planet. We see a world
+            that lacks the greed and self centeredness that
+            has led use into the chaotic state that we see today. We see a world full of cooperation, sustainability,
+            and harmony with our surroundings.</p>
+        <img src="Home_img/vision3.jpg" alt="Pizza box" width="600px" style="margin-top: 10px; margin-bottom: 15px"/>
+        <p class="visioninfo">In order to help achieve this positive vision, we strive to be the perfect example of what
+            is called a values led company. This means that we
+            realize that we have a responsibility to the people and community that make our existence possible. In order
+            to fulfill this responsibility, we
+            seek to maximize our impact by integrating as many socially beneficial actions into our day to day
+            operations as possible. By incorporating a
+            concern for the community–local, national, and global–our restaurant can make positive impact on the world
+            in which it operates.</p>
+    </div>
+
+    <!--Social media-->
+    <div class="social">
+        <a href="https://www.instagram.com/galacticpizza/"><img src="Social/insta.png" width="40px"></a>
+        <a href="https://www.facebook.com/galacticpizza/"><img src="Social/facebook.png" width="40px"></a>
+        <a href="https://twitter.com/galacticpizza/"><img src="Social/twitter.png" width="40px"></a>
+        <a href="https://foursquare.com/v/galactic-pizza/441f91ebf964a52081311fe3/"><img src="Social/foursquare.png"
+                                                                                         width="40px"></a>
+    </div>
+</div><!--end of wrapper-->
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+
+</body>
+</html>
